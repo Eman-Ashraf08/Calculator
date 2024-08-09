@@ -1,0 +1,31 @@
+body{
+    background-color: aliceblue;
+}
+.color{
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+#chng{
+    margin-left: 100px;
+    padding: 10px 40px 10px 40px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#chng:hover{
+    background-color: rgb(83, 76, 77);
+}
+#result{
+    margin-left: 80px;
+}
+#Operator{
+    margin-top: 20px;
+}

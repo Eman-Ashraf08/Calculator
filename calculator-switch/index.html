@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Welcome! Calculate whatever you want</h1>
+   <div class="container color">
+    <div>
+        <label for="num1">Number 1:</label><br>
+        <input type="number" placeholder="Enter num1" id="num1"><button id="chng" onclick=calculate()>Submit</button>
+      </div>
+    <div>
+        <label for="num2">Number 2:</label><br>
+        <input type="number" placeholder="Enter num2" id="num2">
+        <input type="number" placeholder="TOTAL" id="result" readonly>
+      <select id="Operator">
+        <option>Select Operator</option>
+        <option value="add">+</option>
+        <option value="minus">-</option>
+        <option value="multiply">*</option>
+        <option value="divid">/</option>
+      </select>
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
